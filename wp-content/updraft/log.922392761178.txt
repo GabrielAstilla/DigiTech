@@ -1,0 +1,632 @@
+0000.000 (0) Opened log file at time: Sun, 23 Oct 2022 11:18:31 +0000 on http://localhost/wordpress
+0000.033 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.3 PHP: 8.1.6 (apache2handler, Windows NT DESKTOP-3H2G794 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 73.9M | 76M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.058 (0) Free space on disk containing Updraft's temporary directory: 113055.2 MB
+0000.084 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.153 (0) Semaphore (fd, wp_options) being initialised
+0000.241 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.325 (0) Set semaphore last lock (fd) time to 2022-10-23 11:18:31
+0000.349 (0) Semaphore lock (fd) complete
+0000.425 (0) Backup run: resumption=0, nonce=922392761178, file_nonce=922392761178 begun at=1666523911 (0s ago), job type=backup
+0000.475 (0) Scheduling a resumption (1) after 300 seconds (1666524211) in case this run gets aborted
+0000.579 (0) Checking if we have a zip executable available
+0000.625 (0) Creation of backups of directories: beginning
+0000.700 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0015.145 (0) Total entities for the zip file: 3925 directories, 20189 files (0 skipped as non-modified), 228.1 MB
+0015.214 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0015.866 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 100 files added (on-disk size: 801.6 KB)
+0015.941 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 200 files added (on-disk size: 801.6 KB)
+0015.997 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 300 files added (on-disk size: 801.6 KB)
+0016.165 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 400 files added (on-disk size: 801.6 KB)
+0016.249 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 500 files added (on-disk size: 801.6 KB)
+0016.315 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 600 files added (on-disk size: 801.6 KB)
+0016.386 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 700 files added (on-disk size: 801.6 KB)
+0016.449 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 800 files added (on-disk size: 801.6 KB)
+0016.507 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 20189 files batched, 892 (893) added so far); re-opening (prior size: 801.6 KB)
+0029.324 (0) A useful amount of data was added after this amount of zip processing: 13.7 s (normalised: 13.7 s, rate: 1864.5 KB/s)
+0029.548 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 900 files added (on-disk size: 7938.8 KB)
+0029.604 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1000 files added (on-disk size: 7938.8 KB)
+0029.677 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1100 files added (on-disk size: 7938.8 KB)
+0029.741 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1200 files added (on-disk size: 7938.8 KB)
+0029.807 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1300 files added (on-disk size: 7938.8 KB)
+0029.874 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1400 files added (on-disk size: 7938.8 KB)
+0029.956 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1500 files added (on-disk size: 7938.8 KB)
+0030.020 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1600 files added (on-disk size: 7938.8 KB)
+0030.075 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1700 files added (on-disk size: 7938.8 KB)
+0030.134 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1800 files added (on-disk size: 7938.8 KB)
+0030.190 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.4 MB, 20189 files batched, 1001 (1894) added so far); re-opening (prior size: 7938.8 KB)
+0042.448 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 1900 files added (on-disk size: 10900.8 KB)
+0042.528 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2000 files added (on-disk size: 10900.8 KB)
+0042.676 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2100 files added (on-disk size: 10900.8 KB)
+0042.793 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2200 files added (on-disk size: 10900.8 KB)
+0042.892 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2300 files added (on-disk size: 10900.8 KB)
+0043.042 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2400 files added (on-disk size: 10900.8 KB)
+0043.153 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2500 files added (on-disk size: 10900.8 KB)
+0043.349 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2600 files added (on-disk size: 10900.8 KB)
+0043.446 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2700 files added (on-disk size: 10900.8 KB)
+0043.509 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2800 files added (on-disk size: 10900.8 KB)
+0043.582 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.8 MB, 20189 files batched, 1001 (2895) added so far); re-opening (prior size: 10900.8 KB)
+0045.834 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 2900 files added (on-disk size: 17985.1 KB)
+0045.898 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3000 files added (on-disk size: 17985.1 KB)
+0045.978 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3100 files added (on-disk size: 17985.1 KB)
+0046.037 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3200 files added (on-disk size: 17985.1 KB)
+0046.099 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3300 files added (on-disk size: 17985.1 KB)
+0046.172 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3400 files added (on-disk size: 17985.1 KB)
+0046.238 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3500 files added (on-disk size: 17985.1 KB)
+0046.293 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3600 files added (on-disk size: 17985.1 KB)
+0046.366 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3700 files added (on-disk size: 17985.1 KB)
+0046.432 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3800 files added (on-disk size: 17985.1 KB)
+0046.492 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.5 MB, 20189 files batched, 1001 (3896) added so far); re-opening (prior size: 17985.1 KB)
+0055.458 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 3900 files added (on-disk size: 20407.9 KB)
+0055.523 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4000 files added (on-disk size: 20407.9 KB)
+0055.590 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4100 files added (on-disk size: 20407.9 KB)
+0055.657 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4200 files added (on-disk size: 20407.9 KB)
+0055.724 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4300 files added (on-disk size: 20407.9 KB)
+0055.782 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4400 files added (on-disk size: 20407.9 KB)
+0055.858 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4500 files added (on-disk size: 20407.9 KB)
+0055.922 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4600 files added (on-disk size: 20407.9 KB)
+0055.990 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4700 files added (on-disk size: 20407.9 KB)
+0056.057 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4800 files added (on-disk size: 20407.9 KB)
+0056.126 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.6 MB, 20189 files batched, 1001 (4897) added so far); re-opening (prior size: 20407.9 KB)
+0069.673 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 4900 files added (on-disk size: 21666.1 KB)
+0069.745 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5000 files added (on-disk size: 21666.1 KB)
+0069.822 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5100 files added (on-disk size: 21666.1 KB)
+0069.894 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5200 files added (on-disk size: 21666.1 KB)
+0069.948 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5300 files added (on-disk size: 21666.1 KB)
+0070.017 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5400 files added (on-disk size: 21666.1 KB)
+0070.083 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5500 files added (on-disk size: 21666.1 KB)
+0070.164 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5600 files added (on-disk size: 21666.1 KB)
+0070.237 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5700 files added (on-disk size: 21666.1 KB)
+0070.300 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5800 files added (on-disk size: 21666.1 KB)
+0070.373 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.8 MB, 20189 files batched, 1001 (5898) added so far); re-opening (prior size: 21666.1 KB)
+0082.925 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 5900 files added (on-disk size: 23094.4 KB)
+0082.998 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6000 files added (on-disk size: 23094.4 KB)
+0083.171 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6100 files added (on-disk size: 23094.4 KB)
+0083.244 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6200 files added (on-disk size: 23094.4 KB)
+0083.313 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6300 files added (on-disk size: 23094.4 KB)
+0083.386 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6400 files added (on-disk size: 23094.4 KB)
+0083.440 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6500 files added (on-disk size: 23094.4 KB)
+0083.513 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6600 files added (on-disk size: 23094.4 KB)
+0083.563 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6700 files added (on-disk size: 23094.4 KB)
+0083.621 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6800 files added (on-disk size: 23094.4 KB)
+0083.676 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.1 MB, 20189 files batched, 1001 (6899) added so far); re-opening (prior size: 23094.4 KB)
+0096.220 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 6900 files added (on-disk size: 24622.6 KB)
+0096.278 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7000 files added (on-disk size: 24622.6 KB)
+0096.358 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7100 files added (on-disk size: 24622.6 KB)
+0096.555 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7200 files added (on-disk size: 24622.6 KB)
+0096.631 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7300 files added (on-disk size: 24622.6 KB)
+0096.705 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7400 files added (on-disk size: 24622.6 KB)
+0096.763 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7500 files added (on-disk size: 24622.6 KB)
+0096.834 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7600 files added (on-disk size: 24622.6 KB)
+0096.891 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7700 files added (on-disk size: 24622.6 KB)
+0096.962 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7800 files added (on-disk size: 24622.6 KB)
+0097.019 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.7 MB, 20189 files batched, 1001 (7900) added so far); re-opening (prior size: 24622.6 KB)
+0109.390 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 7900 files added (on-disk size: 31921.8 KB)
+0109.530 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8000 files added (on-disk size: 31921.8 KB)
+0109.589 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8100 files added (on-disk size: 31921.8 KB)
+0109.656 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8200 files added (on-disk size: 31921.8 KB)
+0109.745 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8300 files added (on-disk size: 31921.8 KB)
+0109.858 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8400 files added (on-disk size: 31921.8 KB)
+0109.997 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8500 files added (on-disk size: 31921.8 KB)
+0110.142 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8600 files added (on-disk size: 31921.8 KB)
+0110.257 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8700 files added (on-disk size: 31921.8 KB)
+0110.345 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8800 files added (on-disk size: 31921.8 KB)
+0110.437 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 8900 files added (on-disk size: 31921.8 KB)
+0110.489 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.9 MB, 20189 files batched, 1001 (8901) added so far); re-opening (prior size: 31921.8 KB)
+0122.755 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9000 files added (on-disk size: 36790.9 KB)
+0122.898 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9100 files added (on-disk size: 36790.9 KB)
+0123.038 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9200 files added (on-disk size: 36790.9 KB)
+0123.151 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9300 files added (on-disk size: 36790.9 KB)
+0123.292 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9400 files added (on-disk size: 36790.9 KB)
+0123.406 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9500 files added (on-disk size: 36790.9 KB)
+0123.515 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9600 files added (on-disk size: 36790.9 KB)
+0123.628 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9700 files added (on-disk size: 36790.9 KB)
+0123.745 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9800 files added (on-disk size: 36790.9 KB)
+0123.861 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 9900 files added (on-disk size: 36790.9 KB)
+0123.884 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.5 MB, 20189 files batched, 1001 (9902) added so far); re-opening (prior size: 36790.9 KB)
+0138.774 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10000 files added (on-disk size: 41889.1 KB)
+0138.837 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10100 files added (on-disk size: 41889.1 KB)
+0138.907 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10200 files added (on-disk size: 41889.1 KB)
+0138.975 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10300 files added (on-disk size: 41889.1 KB)
+0139.049 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10400 files added (on-disk size: 41889.1 KB)
+0139.106 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10500 files added (on-disk size: 41889.1 KB)
+0139.176 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10600 files added (on-disk size: 41889.1 KB)
+0139.251 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10700 files added (on-disk size: 41889.1 KB)
+0139.321 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10800 files added (on-disk size: 41889.1 KB)
+0139.386 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 10900 files added (on-disk size: 41889.1 KB)
+0139.415 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.6 MB, 20189 files batched, 1001 (10903) added so far); re-opening (prior size: 41889.1 KB)
+0150.826 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11000 files added (on-disk size: 46207.8 KB)
+0150.887 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11100 files added (on-disk size: 46207.8 KB)
+0150.965 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11200 files added (on-disk size: 46207.8 KB)
+0151.020 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11300 files added (on-disk size: 46207.8 KB)
+0151.078 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11400 files added (on-disk size: 46207.8 KB)
+0151.155 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11500 files added (on-disk size: 46207.8 KB)
+0151.239 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11600 files added (on-disk size: 46207.8 KB)
+0151.312 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11700 files added (on-disk size: 46207.8 KB)
+0151.377 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11800 files added (on-disk size: 46207.8 KB)
+0151.432 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 11900 files added (on-disk size: 46207.8 KB)
+0151.464 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6 MB, 20189 files batched, 1001 (11904) added so far); re-opening (prior size: 46207.8 KB)
+0163.697 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12000 files added (on-disk size: 47457.4 KB)
+0163.778 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12100 files added (on-disk size: 47457.4 KB)
+0163.853 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12200 files added (on-disk size: 47457.4 KB)
+0163.922 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12300 files added (on-disk size: 47457.4 KB)
+0163.992 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12400 files added (on-disk size: 47457.4 KB)
+0164.067 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12500 files added (on-disk size: 47457.4 KB)
+0164.139 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12600 files added (on-disk size: 47457.4 KB)
+0164.207 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12700 files added (on-disk size: 47457.4 KB)
+0164.274 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12800 files added (on-disk size: 47457.4 KB)
+0164.363 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 12900 files added (on-disk size: 47457.4 KB)
+0164.425 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.1 MB, 20189 files batched, 1001 (12905) added so far); re-opening (prior size: 47457.4 KB)
+0175.584 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13000 files added (on-disk size: 48512.5 KB)
+0175.651 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13100 files added (on-disk size: 48512.5 KB)
+0175.718 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13200 files added (on-disk size: 48512.5 KB)
+0175.783 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13300 files added (on-disk size: 48512.5 KB)
+0175.862 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13400 files added (on-disk size: 48512.5 KB)
+0175.970 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13500 files added (on-disk size: 48512.5 KB)
+0176.072 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13600 files added (on-disk size: 48512.5 KB)
+0176.128 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13700 files added (on-disk size: 48512.5 KB)
+0176.200 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13800 files added (on-disk size: 48512.5 KB)
+0176.255 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 13900 files added (on-disk size: 48512.5 KB)
+0176.283 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.9 MB, 20189 files batched, 1001 (13906) added so far); re-opening (prior size: 48512.5 KB)
+0187.920 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14000 files added (on-disk size: 49872.9 KB)
+0187.977 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14100 files added (on-disk size: 49872.9 KB)
+0188.043 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14200 files added (on-disk size: 49872.9 KB)
+0188.107 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14300 files added (on-disk size: 49872.9 KB)
+0188.160 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14400 files added (on-disk size: 49872.9 KB)
+0188.211 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14500 files added (on-disk size: 49872.9 KB)
+0188.287 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14600 files added (on-disk size: 49872.9 KB)
+0188.316 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 20189 files batched, 706 (14612) added so far); re-opening (prior size: 49872.9 KB)
+0201.306 (0) A useful amount of data was added after this amount of zip processing: 13.7 s (normalised: 13.6 s, rate: 1885.6 KB/s)
+0201.506 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14700 files added (on-disk size: 60610.4 KB)
+0201.561 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14800 files added (on-disk size: 60610.4 KB)
+0201.635 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 14900 files added (on-disk size: 60610.4 KB)
+0201.689 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15000 files added (on-disk size: 60610.4 KB)
+0201.745 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15100 files added (on-disk size: 60610.4 KB)
+0201.814 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15200 files added (on-disk size: 60610.4 KB)
+0201.885 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15300 files added (on-disk size: 60610.4 KB)
+0201.953 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15400 files added (on-disk size: 60610.4 KB)
+0202.071 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15500 files added (on-disk size: 60610.4 KB)
+0202.268 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15600 files added (on-disk size: 60610.4 KB)
+0202.311 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.4 MB, 20189 files batched, 1001 (15613) added so far); re-opening (prior size: 60610.4 KB)
+0216.457 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15700 files added (on-disk size: 65147.1 KB)
+0216.588 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15800 files added (on-disk size: 65147.1 KB)
+0216.652 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 15900 files added (on-disk size: 65147.1 KB)
+0216.704 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16000 files added (on-disk size: 65147.1 KB)
+0216.777 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16100 files added (on-disk size: 65147.1 KB)
+0216.834 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16200 files added (on-disk size: 65147.1 KB)
+0216.885 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16300 files added (on-disk size: 65147.1 KB)
+0216.942 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16400 files added (on-disk size: 65147.1 KB)
+0216.994 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16500 files added (on-disk size: 65147.1 KB)
+0217.049 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16600 files added (on-disk size: 65147.1 KB)
+0217.076 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.4 MB, 20189 files batched, 1001 (16614) added so far); re-opening (prior size: 65147.1 KB)
+0231.054 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16700 files added (on-disk size: 69649.7 KB)
+0231.104 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16800 files added (on-disk size: 69649.7 KB)
+0231.175 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 16900 files added (on-disk size: 69649.7 KB)
+0231.225 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17000 files added (on-disk size: 69649.7 KB)
+0231.294 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17100 files added (on-disk size: 69649.7 KB)
+0231.356 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17200 files added (on-disk size: 69649.7 KB)
+0231.440 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17300 files added (on-disk size: 69649.7 KB)
+0231.507 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17400 files added (on-disk size: 69649.7 KB)
+0231.565 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17500 files added (on-disk size: 69649.7 KB)
+0231.639 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17600 files added (on-disk size: 69649.7 KB)
+0231.677 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.8 MB, 20189 files batched, 1001 (17615) added so far); re-opening (prior size: 69649.7 KB)
+0239.816 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17700 files added (on-disk size: 71194.6 KB)
+0240.048 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17800 files added (on-disk size: 71194.6 KB)
+0240.182 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 17900 files added (on-disk size: 71194.6 KB)
+0240.267 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18000 files added (on-disk size: 71194.6 KB)
+0240.354 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18100 files added (on-disk size: 71194.6 KB)
+0240.416 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18200 files added (on-disk size: 71194.6 KB)
+0240.477 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18300 files added (on-disk size: 71194.6 KB)
+0240.544 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18400 files added (on-disk size: 71194.6 KB)
+0240.595 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18500 files added (on-disk size: 71194.6 KB)
+0240.660 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18600 files added (on-disk size: 71194.6 KB)
+0240.709 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.4 MB, 20189 files batched, 1001 (18616) added so far); re-opening (prior size: 71194.6 KB)
+0249.346 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18700 files added (on-disk size: 73367.3 KB)
+0249.407 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18800 files added (on-disk size: 73367.3 KB)
+0249.510 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 18900 files added (on-disk size: 73367.3 KB)
+0249.598 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19000 files added (on-disk size: 73367.3 KB)
+0249.698 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19100 files added (on-disk size: 73367.3 KB)
+0249.855 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19200 files added (on-disk size: 73367.3 KB)
+0249.977 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19300 files added (on-disk size: 73367.3 KB)
+0250.084 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19400 files added (on-disk size: 73367.3 KB)
+0250.306 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19500 files added (on-disk size: 73367.3 KB)
+0250.686 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19600 files added (on-disk size: 73367.3 KB)
+0250.763 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.3 MB, 20189 files batched, 1001 (19617) added so far); re-opening (prior size: 73367.3 KB)
+0260.153 (0) The scheduled resumption is within 45 seconds - will reschedule
+0260.195 (0) Rescheduling resumption 1: moving to 345 seconds from now (1666524516)
+0260.272 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0260.507 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19700 files added (on-disk size: 74743 KB)
+0260.613 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19800 files added (on-disk size: 74743 KB)
+0260.677 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 19900 files added (on-disk size: 74743 KB)
+0260.762 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 20000 files added (on-disk size: 74743 KB)
+0260.871 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.tmp: 20100 files added (on-disk size: 74743 KB)
+0265.831 (0) Creating zip file manifest (backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.list-temp.tmp)
+0265.980 (0) Successfully created zip file manifest (size: 1992672)
+0267.203 (0) Created plugins zip (0) - 77654.8 KB in 266.4 s (291.5 KB/s) (sha1: ba87d6319a71c69e8c885366b76e27cf1006dcf8, sha256: 7f6687e1ba7c0730612dfd91c8e2e50d37a26169b2d2dbf5570ced1503d8a81a)
+0267.322 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0267.346 (0) No remote despatch: user chose no remote backup service
+0267.390 (0) Recording as successfully uploaded: backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip
+0267.438 (0) Deleting zip manifest (backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip.list.tmp)
+0267.489 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0267.505 (0) Number of backup sets in history: 0; groups (db): 1
+0267.522 (0) Number of backup sets in history: 0; groups (files): 1
+0267.538 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0267.672 (0) Beginning creation of dump of themes (split every: 400 MB)
+0269.088 (0) Total entities for the zip file: 234 directories, 1039 files (0 skipped as non-modified), 30.2 MB
+0269.140 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0269.205 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0269.259 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0269.316 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0269.373 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0269.438 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0269.501 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0269.576 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 1039 files batched, 761 (761) added so far); re-opening (prior size: 0 KB)
+0287.055 (0) A useful amount of data was added after this amount of zip processing: 19.5 s (normalised: 19.3 s, rate: 1323 KB/s)
+0287.105 (0) Performance is good - will increase the amount of data we attempt to batch (time=19.460635900497, normalised_time=19.349458299333, max_time=287.08724999428, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0287.155 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 800 files added (on-disk size: 13129.9 KB)
+0287.197 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 900 files added (on-disk size: 13129.9 KB)
+0287.268 (0) Zip: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.tmp: 1000 files added (on-disk size: 13129.9 KB)
+0290.780 (0) Creating zip file manifest (backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.list-temp.tmp)
+0290.817 (0) Successfully created zip file manifest (size: 64924)
+0291.146 (0) Created themes zip (0) - 17564.3 KB in 23.4 s (751.5 KB/s) (sha1: d11c67a2d856fa39bc3a660b72ca1c20dbd21cd2, sha256: f5f33beb82460133735f5e93b7baf45ed3d69ef4ea020586e15ab0965e160a92)
+0291.229 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0291.246 (0) No remote despatch: user chose no remote backup service
+0291.263 (0) Recording as successfully uploaded: backup_2022-10-23-1118_DigiTech_922392761178-themes.zip
+0291.304 (0) Deleting zip manifest (backup_2022-10-23-1118_DigiTech_922392761178-themes.zip.list.tmp)
+0291.346 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0291.363 (0) Number of backup sets in history: 0; groups (db): 1
+0291.388 (0) Number of backup sets in history: 0; groups (files): 1
+0291.405 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0291.488 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0291.513 (0) Looking for candidates to backup in: H:\XAMPP\htdocs\wordpress/wp-content/uploads
+0291.530 (0) finding files: 2022: adding to list (1)
+0291.554 (0) finding files: elementor: adding to list (2)
+0291.571 (0) finding files: forminator: adding to list (3)
+0291.596 (0) finding files: wc-logs: adding to list (4)
+0291.613 (0) finding files: woocommerce-placeholder.png: adding to list (5)
+0291.638 (0) finding files: woocommerce_uploads: adding to list (6)
+0291.655 (0) finding files: wpcf7_uploads: adding to list (7)
+0291.679 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0291.766 (0) Total entities for the zip file: 9 directories, 73 files (0 skipped as non-modified), 41 MB
+0293.513 (0) Creating zip file manifest (backup_2022-10-23-1118_DigiTech_922392761178-uploads.zip.list-temp.tmp)
+0293.547 (0) Successfully created zip file manifest (size: 3972)
+0294.096 (0) Created uploads zip (0) - 41944.9 KB in 2.4 s (17669.2 KB/s) (sha1: d4871dd7b57c529044fde9a5bd1e460bc3d0374a, sha256: 4c4c10165db91c71df407a7bc5879acf2cacaa157c09a38a7ff1348233fccdbf)
+0294.188 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0294.213 (0) No remote despatch: user chose no remote backup service
+0294.230 (0) Recording as successfully uploaded: backup_2022-10-23-1118_DigiTech_922392761178-uploads.zip
+0294.271 (0) Deleting zip manifest (backup_2022-10-23-1118_DigiTech_922392761178-uploads.zip.list.tmp)
+0294.388 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0294.405 (0) Number of backup sets in history: 0; groups (db): 1
+0294.429 (0) Number of backup sets in history: 0; groups (files): 1
+0294.463 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0294.555 (0) Beginning backup of other directories found in the content directory (index: 0)
+0294.580 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0294.597 (0) Looking for candidates to backup in: H:\XAMPP\htdocs\wordpress/wp-content
+0294.621 (0) finding files: fonts: adding to list (1)
+0294.655 (0) finding files: index.php: adding to list (2)
+0294.679 (0) finding files: plugins: skipping: this is the plugins directory
+0294.696 (0) finding files: themes: skipping: this is the themes directory
+0294.721 (0) finding files: updraft: skipping: this is the updraft directory
+0294.747 (0) finding files: upgrade: skipping: excluded by options
+0294.771 (0) finding files: uploads: skipping: this is the uploads directory
+0294.826 (0) Total entities for the zip file: 4 directories, 17 files (0 skipped as non-modified), 0.3 MB
+0295.180 (0) Creating zip file manifest (backup_2022-10-23-1118_DigiTech_922392761178-others.zip.list-temp.tmp)
+0295.223 (0) Successfully created zip file manifest (size: 1241)
+0295.504 (0) Created others zip (0) - 255.8 KB in 0.7 s (383.8 KB/s) (sha1: 96177e218bc0c91a13c5e94925fec2ab74721330, sha256: d776d5c0e3d922c14f0fb4b7206a7a68a39a886e9e4c946fb09b4e17762ff220)
+0295.588 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0295.613 (0) No remote despatch: user chose no remote backup service
+0295.638 (0) Recording as successfully uploaded: backup_2022-10-23-1118_DigiTech_922392761178-others.zip
+0295.688 (0) Deleting zip manifest (backup_2022-10-23-1118_DigiTech_922392761178-others.zip.list.tmp)
+0295.738 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0295.761 (0) Number of backup sets in history: 0; groups (db): 1
+0295.788 (0) Number of backup sets in history: 0; groups (files): 1
+0295.811 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0295.978 (0) Saving backup status to database (elements: 8)
+0296.028 (0) Beginning creation of database dump (WordPress DB)
+0296.103 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0296.346 (0) Table wp_options: Total expected rows (via COUNT): 563
+0296.722 (0) Table wp_options: Rows added in this batch (next record: 2238): 559 (uncompressed bytes in this segment=3236429) in 0.49 seconds
+0297.078 (0) Table wp_options: finishing file(s) (2, 646.4 KB)
+0297.157 (0) Table wp_users: Total expected rows (via COUNT): 2
+0297.188 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0297.239 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1571) in 0.11 seconds
+0297.313 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0297.454 (0) Table wp_usermeta: Total expected rows (via COUNT): 44
+0297.504 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0297.563 (0) Table wp_usermeta: Rows added in this batch (next record: 48): 44 (uncompressed bytes in this segment=6231) in 0.17 seconds
+0297.663 (0) Table wp_usermeta: finishing file(s) (2, 1.9 KB)
+0297.796 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 13
+0297.861 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0297.920 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 169): 13 (uncompressed bytes in this segment=6288) in 0.20 seconds
+0298.055 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.3 KB)
+0298.154 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0298.246 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.12 seconds
+0298.338 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0298.393 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0298.429 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0298.480 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=744) in 0.09 seconds
+0298.630 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0298.708 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 37
+0298.738 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0298.789 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 37): 37 (uncompressed bytes in this segment=3975) in 0.11 seconds
+0298.863 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0298.988 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0299.038 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.12 seconds
+0299.172 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0299.275 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0299.304 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0299.355 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2187) in 0.11 seconds
+0299.480 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0299.568 (0) Table wp_links: Total expected rows (via COUNT): 0
+0299.614 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.07 seconds
+0299.747 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0300.322 (0) Table wp_postmeta: Total expected rows (via COUNT): 482
+0300.429 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0300.509 (0) Table wp_postmeta: Rows added in this batch (next record: 581): 482 (uncompressed bytes in this segment=84656) in 0.70 seconds
+0300.663 (0) Table wp_postmeta: finishing file(s) (2, 13.4 KB)
+0300.911 (0) Table wp_posts: Total expected rows (via COUNT): 183
+0300.938 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0301.013 (0) Table wp_posts: Rows added in this batch (next record: 193): 183 (uncompressed bytes in this segment=269069) in 0.22 seconds
+0301.130 (0) Table wp_posts: finishing file(s) (2, 27.5 KB)
+0301.185 (0) Table wp_term_relationships: Total expected rows (approximate): 39
+0301.247 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 43 (uncompressed bytes in this segment=1270) in 0.07 seconds
+0301.330 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0301.413 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 24
+0301.438 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0301.488 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1816) in 0.11 seconds
+0301.588 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0301.723 (0) Table wp_termmeta: Total expected rows (via COUNT): 3
+0301.763 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0301.787 (0) Table wp_termmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=831) in 0.15 seconds
+0301.880 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0301.934 (0) Table wp_terms: Total expected rows (via COUNT): 24
+0301.971 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0302.072 (0) Table wp_terms: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1612) in 0.14 seconds
+0302.222 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0302.276 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0302.340 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=600) in 0.07 seconds
+0302.413 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0302.500 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 2
+0302.530 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0302.588 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 179): 2 (uncompressed bytes in this segment=1586) in 0.12 seconds
+0302.672 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0302.732 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0302.943 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.22 seconds
+0303.147 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0303.226 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0303.254 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0303.296 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=812) in 0.10 seconds
+0303.372 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0303.624 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0303.661 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=784) in 0.09 seconds
+0303.747 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0303.871 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0303.905 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.10 seconds
+0303.972 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0304.036 (0) Table wp_e_events: Total expected rows (via COUNT): 14
+0304.061 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0304.179 (0) Table wp_e_events: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=3363) in 0.17 seconds
+0304.238 (0) Table wp_e_events: finishing file(s) (2, 0.8 KB)
+0304.301 (0) Table wp_frmt_form_entry: Total expected rows (via COUNT): 3
+0304.321 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0304.339 (0) Table wp_frmt_form_entry: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1085) in 0.07 seconds
+0304.413 (0) Table wp_frmt_form_entry: finishing file(s) (2, 0.5 KB)
+0304.688 (0) Table wp_frmt_form_entry_meta: Total expected rows (via COUNT): 7
+0304.719 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0304.755 (0) Table wp_frmt_form_entry_meta: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1594) in 0.29 seconds
+0304.930 (0) Table wp_frmt_form_entry_meta: finishing file(s) (2, 0.6 KB)
+0305.017 (0) Table wp_frmt_form_views: Total expected rows (via COUNT): 4
+0305.046 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0305.080 (0) Table wp_frmt_form_views: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1286) in 0.11 seconds
+0305.147 (0) Table wp_frmt_form_views: finishing file(s) (2, 0.6 KB)
+0305.261 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 49
+0305.279 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0305.331 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 744): 49 (uncompressed bytes in this segment=9001) in 0.15 seconds
+0305.447 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.1 KB)
+0305.546 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 42
+0305.563 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0305.590 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 42): 42 (uncompressed bytes in this segment=21034) in 0.09 seconds
+0305.706 (0) Table wp_wc_admin_notes: finishing file(s) (2, 5.5 KB)
+0305.755 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0305.820 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.07 seconds
+0305.897 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0306.001 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0306.030 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.08 seconds
+0306.105 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0306.537 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0306.631 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.10 seconds
+0306.722 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0306.815 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0306.873 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.09 seconds
+0306.946 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0307.055 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0307.088 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1110) in 0.09 seconds
+0307.163 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0307.218 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0307.256 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.04 seconds
+0307.330 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0307.386 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0307.439 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.06 seconds
+0307.995 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0308.229 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0308.255 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0308.313 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=916) in 0.12 seconds
+0308.412 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0308.491 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0308.561 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=698) in 0.10 seconds
+0308.638 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0308.719 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0308.746 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1226) in 0.06 seconds
+0308.822 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0308.931 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0308.980 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1059) in 0.11 seconds
+0309.146 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0309.202 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0309.238 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=959) in 0.04 seconds
+0309.313 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0309.377 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0309.416 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1534) in 0.04 seconds
+0309.505 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0309.846 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0309.880 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.09 seconds
+0309.988 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0310.071 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0310.098 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.05 seconds
+0310.271 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0310.480 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0310.534 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=837) in 0.19 seconds
+0310.655 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0310.796 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 3
+0310.821 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0310.888 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 17): 3 (uncompressed bytes in this segment=5412) in 0.16 seconds
+0310.996 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1.4 KB)
+0311.074 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0311.221 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0311.440 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=977) in 0.39 seconds
+0311.538 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0311.630 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0311.821 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0311.855 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=880) in 0.26 seconds
+0311.955 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0312.023 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0312.046 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0312.070 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=725) in 0.06 seconds
+0312.147 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0312.241 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0312.523 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.30 seconds
+0312.822 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0312.905 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0312.930 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1297) in 0.03 seconds
+0313.013 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0313.196 (0) PHP event: code E_WARNING: filemtime(): stat failed for H:\XAMPP\htdocs\wordpress/wp-content/updraft/backup_2022-10-23-1118_DigiTech_922392761178-db.gz (line 1922, H:\XAMPP\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0313.239 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_options.table.tmpr2239.gz (1/50/fopen): adding to final database dump
+0313.305 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_options.table.gz (2/50/fopen): adding to final database dump
+0313.330 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_users.table.tmpr3.gz (3/50/fopen): adding to final database dump
+0313.354 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_users.table.gz (4/50/fopen): adding to final database dump
+0313.413 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_usermeta.table.tmpr49.gz (5/50/fopen): adding to final database dump
+0313.447 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_usermeta.table.gz (6/50/fopen): adding to final database dump
+0313.471 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_actionscheduler_actions.table.tmpr170.gz (7/50/fopen): adding to final database dump
+0313.497 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_actionscheduler_actions.table.gz (8/50/fopen): adding to final database dump
+0313.521 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/50/fopen): adding to final database dump
+0313.547 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_actionscheduler_claims.table.gz (10/50/fopen): adding to final database dump
+0313.571 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/50/fopen): adding to final database dump
+0313.605 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_actionscheduler_groups.table.gz (12/50/fopen): adding to final database dump
+0313.628 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_actionscheduler_logs.table.tmpr38.gz (13/50/fopen): adding to final database dump
+0313.646 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_actionscheduler_logs.table.gz (14/50/fopen): adding to final database dump
+0313.669 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_commentmeta.table.tmpr0.gz (15/50/fopen): adding to final database dump
+0313.728 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_commentmeta.table.gz (16/50/fopen): adding to final database dump
+0313.753 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_comments.table.tmpr2.gz (17/50/fopen): adding to final database dump
+0313.771 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_comments.table.gz (18/50/fopen): adding to final database dump
+0313.986 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_links.table.tmpr0.gz (19/50/fopen): adding to final database dump
+0314.013 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_links.table.gz (20/50/fopen): adding to final database dump
+0314.036 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_postmeta.table.tmpr582.gz (21/50/fopen): adding to final database dump
+0314.055 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_postmeta.table.gz (22/50/fopen): adding to final database dump
+0314.078 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_posts.table.tmpr194.gz (23/50/fopen): adding to final database dump
+0314.097 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_posts.table.gz (24/50/fopen): adding to final database dump
+0314.119 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_term_relationships.table.tmpr100001.gz (25/50/fopen): adding to final database dump
+0314.138 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_term_relationships.table.gz (26/50/fopen): adding to final database dump
+0314.161 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_term_taxonomy.table.tmpr25.gz (27/50/fopen): adding to final database dump
+0314.180 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_term_taxonomy.table.gz (28/50/fopen): adding to final database dump
+0314.203 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_termmeta.table.tmpr4.gz (29/50/fopen): adding to final database dump
+0314.221 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_termmeta.table.gz (30/50/fopen): adding to final database dump
+0314.253 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_terms.table.tmpr25.gz (31/50/fopen): adding to final database dump
+0314.280 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_terms.table.gz (32/50/fopen): adding to final database dump
+0314.304 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/50/fopen): adding to final database dump
+0314.330 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_category_lookup.table.gz (34/50/fopen): adding to final database dump
+0314.371 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_product_meta_lookup.table.tmpr180.gz (35/50/fopen): adding to final database dump
+0314.417 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_product_meta_lookup.table.gz (36/50/fopen): adding to final database dump
+0314.462 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/50/fopen): adding to final database dump
+0314.488 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_reserved_stock.table.gz (38/50/fopen): adding to final database dump
+0314.512 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/50/fopen): adding to final database dump
+0314.538 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_tax_rate_classes.table.gz (40/50/fopen): adding to final database dump
+0314.562 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/50/fopen): adding to final database dump
+0314.730 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_order_itemmeta.table.gz (42/50/fopen): adding to final database dump
+0315.054 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/50/fopen): adding to final database dump
+0315.146 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/50/fopen): adding to final database dump
+0315.179 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_e_events.table.tmpr15.gz (45/50/fopen): adding to final database dump
+0315.213 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_e_events.table.gz (46/50/fopen): adding to final database dump
+0315.246 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_frmt_form_entry.table.tmpr4.gz (47/50/fopen): adding to final database dump
+0315.280 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_frmt_form_entry.table.gz (48/50/fopen): adding to final database dump
+0315.304 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_frmt_form_entry_meta.table.tmpr8.gz (49/50/fopen): adding to final database dump
+0315.338 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_frmt_form_entry_meta.table.gz (50/50/fopen): adding to final database dump
+0315.362 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_frmt_form_views.table.tmpr5.gz (51/50/fopen): adding to final database dump
+0315.388 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_frmt_form_views.table.gz (52/50/fopen): adding to final database dump
+0315.412 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_admin_note_actions.table.tmpr745.gz (53/50/fopen): adding to final database dump
+0315.463 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_admin_note_actions.table.gz (54/50/fopen): adding to final database dump
+0315.488 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_admin_notes.table.tmpr43.gz (55/50/fopen): adding to final database dump
+0315.513 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_admin_notes.table.gz (56/50/fopen): adding to final database dump
+0315.538 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_customer_lookup.table.tmpr0.gz (57/50/fopen): adding to final database dump
+0315.571 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_customer_lookup.table.gz (58/50/fopen): adding to final database dump
+0315.596 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_download_log.table.tmpr0.gz (59/50/fopen): adding to final database dump
+0315.621 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_download_log.table.gz (60/50/fopen): adding to final database dump
+0315.655 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (61/50/fopen): adding to final database dump
+0315.687 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_order_coupon_lookup.table.gz (62/50/fopen): adding to final database dump
+0315.713 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (63/50/fopen): adding to final database dump
+0315.888 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_order_product_lookup.table.gz (64/50/fopen): adding to final database dump
+0315.963 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_order_stats.table.tmpr0.gz (65/50/fopen): adding to final database dump
+0316.012 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_order_stats.table.gz (66/50/fopen): adding to final database dump
+0316.046 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (67/50/fopen): adding to final database dump
+0316.071 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_order_tax_lookup.table.gz (68/50/fopen): adding to final database dump
+0316.105 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (69/50/fopen): adding to final database dump
+0316.146 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_product_attributes_lookup.table.gz (70/50/fopen): adding to final database dump
+0316.237 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_product_download_directories.table.tmpr3.gz (71/50/fopen): adding to final database dump
+0316.321 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_product_download_directories.table.gz (72/50/fopen): adding to final database dump
+0316.571 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_rate_limits.table.tmpr0.gz (73/50/fopen): adding to final database dump
+0316.613 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_rate_limits.table.gz (74/50/fopen): adding to final database dump
+0316.663 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_webhooks.table.tmpr0.gz (75/50/fopen): adding to final database dump
+0316.705 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_wc_webhooks.table.gz (76/50/fopen): adding to final database dump
+0316.747 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (77/50/fopen): adding to final database dump
+0316.779 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_api_keys.table.gz (78/50/fopen): adding to final database dump
+0316.815 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (79/50/fopen): adding to final database dump
+0316.856 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_attribute_taxonomies.table.gz (80/50/fopen): adding to final database dump
+0316.888 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (81/50/fopen): adding to final database dump
+0316.913 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (82/50/fopen): adding to final database dump
+0316.938 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_log.table.tmpr0.gz (83/50/fopen): adding to final database dump
+0316.971 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_log.table.gz (84/50/fopen): adding to final database dump
+0316.997 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_order_items.table.tmpr0.gz (85/50/fopen): adding to final database dump
+0317.030 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_order_items.table.gz (86/50/fopen): adding to final database dump
+0317.055 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (87/50/fopen): adding to final database dump
+0317.079 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_payment_tokens.table.gz (88/50/fopen): adding to final database dump
+0317.119 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_sessions.table.tmpr18.gz (89/50/fopen): adding to final database dump
+0317.171 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_sessions.table.gz (90/50/fopen): adding to final database dump
+0317.546 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (91/50/fopen): adding to final database dump
+0317.674 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_shipping_zone_locations.table.gz (92/50/fopen): adding to final database dump
+0317.804 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (93/50/fopen): adding to final database dump
+0317.996 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_shipping_zone_methods.table.gz (94/50/fopen): adding to final database dump
+0318.029 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (95/50/fopen): adding to final database dump
+0318.055 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_shipping_zones.table.gz (96/50/fopen): adding to final database dump
+0318.079 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (97/50/fopen): adding to final database dump
+0318.113 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_tax_rate_locations.table.gz (98/50/fopen): adding to final database dump
+0318.137 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (99/50/fopen): adding to final database dump
+0318.279 (0) The time we have been running (318.2) is approaching the resumption interval (345) - increasing resumption interval to 349
+0318.421 (0) backup_2022-10-23-1118_DigiTech_922392761178-db-table-wp_woocommerce_tax_rates.table.gz (100/50/fopen): adding to final database dump
+0318.473 (0) backup_2022-10-23-1118_DigiTech_922392761178-db.gz: finished writing out complete database file (719.2 KB)
+0318.671 (0) Total database tables backed up: 50 (backup_2022-10-23-1118_DigiTech_922392761178-db.gz, size: 736613, sha1: d8df51d2487f0b8618cdebb03101e105b9791fad, sha256: f5be756262a2a10661015059b5d8d10ba7384ea780bca4259872702c3128d5b7)
+0318.896 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2862, H:\XAMPP\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0319.086 (0) backup_2022-10-23-1118_DigiTech_922392761178-plugins.zip: plugins: This file has already been successfully uploaded
+0319.104 (0) backup_2022-10-23-1118_DigiTech_922392761178-themes.zip: themes: This file has already been successfully uploaded
+0319.128 (0) backup_2022-10-23-1118_DigiTech_922392761178-uploads.zip: uploads: This file has already been successfully uploaded
+0319.146 (0) backup_2022-10-23-1118_DigiTech_922392761178-others.zip: others: This file has already been successfully uploaded
+0319.178 (0) backup_2022-10-23-1118_DigiTech_922392761178-db.gz: db: This file has not yet been successfully uploaded: will queue
+0319.196 (0) Saving backup history. Total backup size: 134.9 MB
+0319.246 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0319.437 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0319.471 (0) No remote despatch: user chose no remote backup service
+0319.521 (0) Recording as successfully uploaded: backup_2022-10-23-1118_DigiTech_922392761178-db.gz
+0319.613 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0319.637 (0) Number of backup sets in history: 1; groups (db): 1
+0319.663 (0) Examining (for databases) backup set with group_id=0, nonce=922392761178, datestamp=1666523911 (Oct 23 2022 11:18:31)
+0319.687 (0) This backup set is the backup set just made, so will not be deleted.
+0319.687 (0) Number of backup sets in history: 1; groups (files): 1
+0319.704 (0) Examining (for files) backup set with nonce=922392761178, datestamp=1666523911 (Oct 23 2022 11:18:31)
+0319.704 (0) This backup set is the backup set just made, so will not be deleted.
+0319.729 (0) This backup set is the backup set just made, so will not be deleted.
+0319.729 (0) This backup set is the backup set just made, so will not be deleted.
+0319.729 (0) This backup set is the backup set just made, so will not be deleted.
+0319.729 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.754 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0319.804 (0) Resume backup (922392761178, 0): finish run
+0319.887 (0) Decremented the semaphore (fd) by 1
+0319.929 (0) Semaphore (fd) unlocked
+0320.054 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0320.246 (0) No email will/can be sent - the user has not configured an email address.
+0320.271 (0) The backup apparently succeeded and is now complete

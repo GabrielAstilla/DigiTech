@@ -1,0 +1,48 @@
+2022-10-23T11:34:00+00:00 CRITICAL Uncaught Error: Failed opening required 'H:/XAMPP/htdocs/wordpress/wp-content/plugins/kirki/upgrade-notifications.php' (include_path='H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki/;H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki/core;H:\XAMPP\php\PEAR') in H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki\kirki.php:86
+Stack trace:
+#0 H:\XAMPP\htdocs\wordpress\wp-admin\includes\plugin.php(2313): include_once()
+#1 H:\XAMPP\htdocs\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('kirki/kirki.php')
+#2 H:\XAMPP\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\getting-started\getting-started.php(185): activate_plugin('kirki/kirki.php')
+#3 H:\XAMPP\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Bosa_Notice_Handler->bosa_getting_started('')
+#4 H:\XAMPP\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 H:\XAMPP\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 H:\XAMPP\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bosa_ge...')
+#7 {main}
+  thrown in H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki\kirki.php on line 86
+
+2022-10-23T11:34:00+00:00 CRITICAL Uncaught Error: Failed opening required 'H:/XAMPP/htdocs/wordpress/wp-content/plugins/kirki/upgrade-notifications.php' (include_path='H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki/;H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki/core;H:\XAMPP\php\PEAR') in H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki\kirki.php:86
+Stack trace:
+#0 H:\XAMPP\htdocs\wordpress\wp-admin\includes\plugin.php(2313): include_once()
+#1 H:\XAMPP\htdocs\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('kirki/kirki.php')
+#2 H:\XAMPP\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\getting-started\getting-started.php(185): activate_plugin('kirki/kirki.php')
+#3 H:\XAMPP\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Bosa_Notice_Handler->bosa_getting_started('')
+#4 H:\XAMPP\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 H:\XAMPP\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 H:\XAMPP\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bosa_ge...')
+#7 {main}
+  thrown in H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki\kirki.php on line 86
+
+2022-10-23T11:37:26+00:00 CRITICAL Uncaught Error: Failed opening required 'H:/XAMPP/htdocs/wordpress/wp-content/plugins/kirki/upgrade-notifications.php' (include_path='H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki/;H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki/core;H:\XAMPP\php\PEAR') in H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki\kirki.php:86
+Stack trace:
+#0 H:\XAMPP\htdocs\wordpress\wp-admin\includes\plugin.php(2313): include_once()
+#1 H:\XAMPP\htdocs\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('kirki/kirki.php')
+#2 H:\XAMPP\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\getting-started\getting-started.php(185): activate_plugin('kirki/kirki.php')
+#3 H:\XAMPP\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Bosa_Notice_Handler->bosa_getting_started('')
+#4 H:\XAMPP\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 H:\XAMPP\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 H:\XAMPP\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bosa_ge...')
+#7 {main}
+  thrown in H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki\kirki.php on line 86
+
+2022-10-23T11:37:27+00:00 CRITICAL Uncaught Error: Failed opening required 'H:/XAMPP/htdocs/wordpress/wp-content/plugins/kirki/upgrade-notifications.php' (include_path='H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki/;H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki/core;H:\XAMPP\php\PEAR') in H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki\kirki.php:86
+Stack trace:
+#0 H:\XAMPP\htdocs\wordpress\wp-admin\includes\plugin.php(2313): include_once()
+#1 H:\XAMPP\htdocs\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('kirki/kirki.php')
+#2 H:\XAMPP\htdocs\wordpress\wp-content\themes\bosa-ecommerce-shop\inc\getting-started\getting-started.php(185): activate_plugin('kirki/kirki.php')
+#3 H:\XAMPP\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Bosa_Notice_Handler->bosa_getting_started('')
+#4 H:\XAMPP\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 H:\XAMPP\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 H:\XAMPP\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_bosa_ge...')
+#7 {main}
+  thrown in H:\XAMPP\htdocs\wordpress\wp-content\plugins\kirki\kirki.php on line 86
+
